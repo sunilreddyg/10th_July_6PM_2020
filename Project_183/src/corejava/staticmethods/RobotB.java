@@ -3,13 +3,13 @@ package corejava.staticmethods;
 public class RobotB 
 {
 	//Static Specifier methods [Also known as class mehtods]
-	static void method1()
+	public static void method1()
 	{
 		System.out.println("method1 executed");
 	}
 	
 	//Static Specifier methods [Also known as class mehtods]
-	static void method2()
+	public static void method2()
 	{
 		System.out.println("method2 executed");
 	}
