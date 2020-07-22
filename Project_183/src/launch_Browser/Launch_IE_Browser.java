@@ -25,7 +25,7 @@ public class Launch_IE_Browser {
 		System.setProperty("webdriver.ie.driver", "Drivers\\IEDriverServer.exe");
 		InternetExplorerDriver ie=new InternetExplorerDriver();
 		ie.get("http://facebook.com");
-		
+
 		Thread.sleep(5000);   //Static timeout 5 seconds
 		
 		ie.close();
