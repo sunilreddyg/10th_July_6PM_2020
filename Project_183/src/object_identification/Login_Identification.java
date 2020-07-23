@@ -21,7 +21,8 @@ public class Login_Identification {
 		driver.findElement(By.id("pass")).sendKeys("Hello123456");
 		
 		//Click login button
-		driver.findElement(By.id("loginbutton")).click();
+		driver.findElement(By.xpath("//input[@value='Log In']")).click();
+		
 	}
 
 }
