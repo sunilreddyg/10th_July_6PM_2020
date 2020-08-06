@@ -13,7 +13,7 @@ Html Source:-->
 					commands available.These commands only we can use for
 					select tag elements.
 
-				    =>methods to select dropdown option
+				    => methods to select dropdown option
 			
 						1. SelectByvisibleText
 						2. SelectByValue
