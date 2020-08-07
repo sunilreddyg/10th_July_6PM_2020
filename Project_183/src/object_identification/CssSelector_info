@@ -124,8 +124,9 @@ page htmlsource:--->
 
 Identify 3rd element:--->
 		
-			By.cssSelector("div[id='X'][type='C']")
-================================================================
+			By.id("x")  ---> 2nd object
+			By.cssSelector("div[id='x'][type='c']")  --> 3rd object
+=============================================================================
 Dynamic Css:--> [CssSelector identify location with partial attributes]
 
 	To target Web element location with partial attributes, CssSelector follow
