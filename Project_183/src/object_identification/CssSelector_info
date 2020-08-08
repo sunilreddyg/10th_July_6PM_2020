@@ -144,7 +144,7 @@ Example:--> target element with matching characters
 
 
 		by.cssSelector("input[id*='email']")
-===================================================================		
+===========================================================================
 
 Example:--> target element with start characters
 
@@ -153,7 +153,7 @@ Example:--> target element with start characters
 
 
 		by.cssSelector("input[id^='email']")
-=============================================================
+============================================================================
 Example:--> target element with end characters
 
 	Manual Browser         :-->   <input  id="987jjhf_email"></input>
@@ -161,7 +161,7 @@ Example:--> target element with end characters
 
 
 		by.cssSelector("input[id$='email']")
-=============================================================
+============================================================================
 Example:-->  Target child node with parent Node.
 
 HtmlSource:-->
@@ -180,7 +180,7 @@ HtmlSource:-->
 		Note:--> greaterthan symbol [>] identify child elements under
 				 parent node...
 
-====================================================================
+=============================================================================
 
 HtmlSource:--> parent and child identification using  <<SPACE>>
 			   It identify matching descendent under parent..
@@ -196,7 +196,8 @@ Syntax:-->
 
 		By.cssSelector("div[id='login_conainer']  input")
 		By.cssSelector("div[id='login_container'] > div[class='demo'] > input")
-====================================================================
+		
+===============================================================================
 HtmlSource:--> Identify Required node with help of sibling node..
 
 	<div class="demo">
@@ -205,5 +206,5 @@ HtmlSource:--> Identify Required node with help of sibling node..
 	</div>	
 
 
-
 		By.cssSelector("label[id='email-login'] + input")
+================================================================================
