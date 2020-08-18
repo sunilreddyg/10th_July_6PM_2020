@@ -1,4 +1,4 @@
-package corejava.instantmethods;
+package corejava.Variables;
 
 public class DataTypes {
 
