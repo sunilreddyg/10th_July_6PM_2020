@@ -24,8 +24,17 @@ public class SendKeys_Interactions {
 
 		
 		//Using Actions class
-		new Actions(driver).sendKeys(Firstname, "Newuser")
-		.pause(2000).sendKeys(Keys.TAB).pause(2000).sendKeys("webdriver").perform();
+		new Actions(driver).sendKeys(Firstname, "Arjun")
+		.pause(2000).sendKeys(Keys.TAB)
+		.pause(2000).sendKeys("Shyam")
+		.pause(2000).sendKeys("ArjunShyam@gmail.com").perform();
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
