@@ -9,6 +9,7 @@ public class All_implicitWaits {
 
 	public static void main(String[] args) 
 	{
+		
 		System.setProperty("webdriver.chrome.driver", "browser_drivers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		//Assign Dynamic Implicit wait for Automation browser.
