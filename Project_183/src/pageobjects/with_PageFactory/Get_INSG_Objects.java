@@ -4,7 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class Get_INSG_Objects {
+public class Get_INSG_Objects 
+{
 
 	public static void main(String[] args) {
 		
@@ -32,6 +33,8 @@ public class Get_INSG_Objects {
 		
 		signup.password.clear();
 		signup.password.sendKeys("Hello1234");
+		
+		
 
 	}
 
