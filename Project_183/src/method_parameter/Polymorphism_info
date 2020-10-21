@@ -1,0 +1,55 @@
+Polymorphism:-->
+
+		The word polymorphism means having many forms, In simple words we can define any
+		message in more than one form.
+		
+
+Method overloading:-->
+
+		When they are multiple functions with same name but define different parameters then
+		these functions called Overloaded.
+		
+		
+		=> Overloading with different types
+		
+		public class Product_details
+		{
+		
+				static void set_price(double price)
+				{
+					System.out.println(price);
+				}
+				
+				static void set_price(int price)
+				{
+					System.out.println(price);	
+				}
+		
+		}
+		
+		
+		=> Overloading with Different numbers
+		
+	
+		public class Product_Count
+		{
+		
+				static void Print_prodcuts(int a)
+				{
+					System.out.println(a);
+				}
+				
+				static void Print_prodcuts(int a, int b )
+				{
+					System.out.println(a+"   "+b);	
+				}
+		
+		}
+		
+====================================================================================================>>
+		
+Method Overriding:-->
+		
+		
+		
+		
