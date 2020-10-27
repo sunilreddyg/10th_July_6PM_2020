@@ -1,0 +1,16 @@
+
+
+Encapsulation:-->
+		
+			=> wrapping up of data into single unit.
+			=> Encapsulation helps to prevent accessing data from outside class
+			=> Ecapsulation hide data from outside class
+			=> it is the mechanism that can access private data outside a class 
+						by wrapping data with testcode..
+						
+						
+Advantages:-->
+			1. Data Hidding
+			2. Flexibility
+			3. Reusability
+			
