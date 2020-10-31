@@ -51,13 +51,6 @@ public class WebDriver_Test2
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception 
 	{
