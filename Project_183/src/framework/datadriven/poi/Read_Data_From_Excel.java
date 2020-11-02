@@ -47,7 +47,17 @@ public class Read_Data_From_Excel {
 		System.out.println("At first row and first cell data available is -->"+Username);
 		
 		
-		
+		/*
+		 * 
+		 * getStringCellValue:-->
+		 * 			Method read characters from cell 
+		 * getNumericCellValue:-->
+		 * 			Method read number from cell and return in double format
+		 * getDateCellValue:-->
+		 * 			Method read data value from cell and return in Date format
+		 * getBooleanvalue:-->
+		 * 			Method read boolean value true/false from cell. 
+		 */
 		
 	}
 
