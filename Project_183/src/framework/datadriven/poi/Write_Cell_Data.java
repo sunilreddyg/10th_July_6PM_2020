@@ -6,8 +6,8 @@ import java.io.IOException;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
-
-public class Write_Cell_Data {
+public class Write_Cell_Data 
+{
 
 	public static void main(String[] args) throws IOException 
 	{
