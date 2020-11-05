@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="framework.testng.WebDriver_Tesng_ClassA">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="Tc002_login_link"/>
+          <include name="Tc001_Signup_link"/>
+        </methods>
+      </class> <!-- framework.testng.WebDriver_Tesng_ClassA -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

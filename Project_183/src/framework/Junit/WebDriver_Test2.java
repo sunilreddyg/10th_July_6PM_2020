@@ -54,7 +54,7 @@ public class WebDriver_Test2
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception 
 	{
-		System.setProperty("webdriver.chrome.driver","Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","browser_drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 	}
