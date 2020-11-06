@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import java.io.File;
-import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
@@ -48,8 +47,7 @@ public class WebDriver_Tesng_ClassA
 		Reporter.log("Expected title presented for Login link is --> "+driver.getTitle());
 	}
 	
-	
-	
+
   @BeforeMethod
   public void beforeMethod() 
   {

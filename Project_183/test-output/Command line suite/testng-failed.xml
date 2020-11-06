@@ -3,13 +3,13 @@
 <suite name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="framework.testng.WebDriver_Tesng_ClassA">
+      <class name="framework.testng.CrossBrowser.CrossBrowser_Test">
         <methods>
-          <include name="beforeClass"/>
-          <include name="Tc002_login_link"/>
-          <include name="Tc001_Signup_link"/>
+          <include name="launchBrowser"/>
+          <include name="flight_search"/>
+          <include name="loadApp"/>
         </methods>
-      </class> <!-- framework.testng.WebDriver_Tesng_ClassA -->
+      </class> <!-- framework.testng.CrossBrowser.CrossBrowser_Test -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
